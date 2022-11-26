@@ -1,7 +1,7 @@
 name: F-Zero X (North America)
 sha1: 5f658e88ffa9de23cba6986a8fd3d3a90d7b4340
 options:
-  basename: fzerox
+  basename: f-zerox
   target_path: baserom.us.z64
   base_path: .
   compiler: IDO
@@ -14,8 +14,8 @@ options:
   # undefined_syms_auto_path: undefined_syms_auto.txt
   # symbol_addrs_path: symbol_addrs.txt
   # asm_path: asm
-  src_path: src
-  build_path: build
+  # src_path: src
+  # build_path: build
   # extensions_path: tools/splat_ext
   # mips_abi_float_regs: o32
   # section_order: [".text", ".data", ".rodata", ".bss"]
@@ -32,9 +32,9 @@ segments:
   - name: main
     type: code
     start: 0x1000
-    vram: 0x80267000
+    vram: 0x80067000
     subsegments:
       - [0x1000, asm]
   - type: bin
-    start: 0x55618
+    start: 0x55620
   - [0x1000000]
