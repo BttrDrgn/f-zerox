@@ -36,5 +36,5 @@ segments:
     subsegments:
       - [0x1000, asm]
   - type: bin
-    start: 0x067628
+    start: 0x55618
   - [0x1000000]
