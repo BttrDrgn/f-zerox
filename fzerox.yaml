@@ -1,0 +1,40 @@
+name: F-Zero X (North America)
+sha1: 5f658e88ffa9de23cba6986a8fd3d3a90d7b4340
+options:
+  basename: fzerox
+  target_path: baserom.us.z64
+  base_path: .
+  compiler: IDO
+  find_file_boundaries: True
+  header_encoding: ASCII
+  platform: n64
+  # undefined_funcs_auto: True
+  # undefined_funcs_auto_path: undefined_funcs_auto.txt
+  # undefined_syms_auto: True
+  # undefined_syms_auto_path: undefined_syms_auto.txt
+  # symbol_addrs_path: symbol_addrs.txt
+  # asm_path: asm
+  src_path: src
+  build_path: build
+  # extensions_path: tools/splat_ext
+  # mips_abi_float_regs: o32
+  # section_order: [".text", ".data", ".rodata", ".bss"]
+  # auto_all_sections: [".data", ".rodata", ".bss"]
+  # libultra_symbols: True
+  # hardware_regs: True
+segments:
+  - name: header
+    type: header
+    start: 0x0
+  - name: boot
+    type: bin
+    start: 0x40
+  - name: main
+    type: code
+    start: 0x1000
+    vram: 0x80267000
+    subsegments:
+      - [0x1000, asm]
+  - type: bin
+    start: 0x067628
+  - [0x1000000]

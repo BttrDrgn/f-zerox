@@ -1,0 +1,9 @@
+*.z64
+
+assets/
+asm/
+build/
+
+undefined_syms_auto.txt
+undefined_funcs_auto.txt
+fzerox.ld
