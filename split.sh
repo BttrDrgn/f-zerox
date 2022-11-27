@@ -1,1 +1,0 @@
-python3 tools/splat/split.py f-zerox.yaml
