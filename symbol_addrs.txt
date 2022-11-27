@@ -1,3 +1,5 @@
+//n64sym
+
 osTvType  = 0x80000300;
 osRomBase  = 0x80000308;
 osResetType  = 0x8000030C;
@@ -199,8 +201,8 @@ osViSetYScale  = 0x800C7800;
 __osSpSetPc  = 0x800C78A0;
 __osSetHWIntrRoutine  = 0x800C78E0;
 rspbootTextStart  = 0x800C7930;
-//__osCurrentTime  = 0x800CD170;
-//__osCurrentTime  = 0x800CD174;
+__osCurrentTime  = 0x800CD170;
+__osCurrentTime2  = 0x800CD174;
 __additional_scanline  = 0x800CD2D4;
 __osThreadTail  = 0x800D1CA0;
 __osRunQueue  = 0x800D1CA8;
@@ -335,8 +337,8 @@ __osEventStateTab  = 0x800FB300;
 __LeoDiskHandle  = 0x800FB380;
 __LeoDiskHandle  = 0x800FB394;
 __osDiskHandle  = 0x800FB3F4;
-__osCurrentTime  = 0x800FB420;
-__osCurrentTime  = 0x800FB424;
+//__osCurrentTime  = 0x800FB420;
+//__osCurrentTime  = 0x800FB424;
 __osBaseCounter  = 0x800FB428;
 __osViIntrCount  = 0x800FB42C;
 __osTimerCounter  = 0x800FB430;
