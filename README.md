@@ -27,4 +27,4 @@ This repo compiles the following:
 - Place your F-Zero X Z64 format ROM at the root of the repository as `baserom.u.z64`
 - Run `make extract` to split the rom
 - Run `make` to build the rom
-    - Run `make extract & make` to do this all in one
+    - Run `make extract && make` to do this all in one
