@@ -10,7 +10,7 @@
 
 
 BASENAME  = f-zerox
-VERSION  := u
+VERSION  := us
 
 # Colors
 
@@ -145,7 +145,7 @@ dirs:
 check: .baserom.$(VERSION).ok
 
 verify: $(TARGET).z64
-	@sha1sum -c f-zerox.u.sha1
+	@sha1sum -c f-zerox.us.sha1
 
 no_verify: $(TARGET).z64
 	@echo "Skipping SHA1SUM check!"
