@@ -26,7 +26,7 @@ CYAN    := \033[0;36m
 # Directories
 
 BUILD_DIR = build
-ASM_DIRS  = asm asm/libultra #For libultra handwritten files
+ASM_DIRS  = asm asm/data asm/libultra #For libultra handwritten files
 BIN_DIRS  = assets
 SRC_DIR   = src
 
