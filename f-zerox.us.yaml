@@ -1,7 +1,7 @@
 name: F-Zero X (North America)
 sha1: 5f658e88ffa9de23cba6986a8fd3d3a90d7b4340
 options:
-  basename: fzerox
+  basename: f-zerox
   target_path: baserom.us.z64
   base_path: .
   compiler: IDO

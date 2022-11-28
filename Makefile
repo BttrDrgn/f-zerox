@@ -62,7 +62,7 @@ GREP     = grep -rl
 
 #For segments without GLOBAL_ASM
 QEMU_IRIX = /usr/bin/qemu-irix
-CC       = $(QEMU_IRIX) -silent -L $(TOOLS_DIR)/ido5.3_compiler $(TOOLS_DIR)/ido5.3_compiler/usr/bin/cc
+CC       = $(QEMU_IRIX) -silent -L $(TOOLS_DIR)/ido5.3_cc $(TOOLS_DIR)/ido5.3_cc/usr/bin/cc
 SPLAT    = $(TOOLS_DIR)/splat/split.py
 
 
