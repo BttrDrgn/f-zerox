@@ -143,7 +143,7 @@ segments:
       - [0x61A00, asm]
       - [0x625e0, asm]
       - [0x66FB0, bin]
-      - [0x6A480, rodata] # rodata?
+      - [0x6A480, bin]
       - [0x6A7B0, bin]
       - [0x70e00, bin] # +8 RSP Gfx ucode F3DEX
       - [0x71220, bin] # +8 RSP Gfx ucode F3DLX.Rej
