@@ -39,7 +39,7 @@ segments:
     symbol_name_format: $VRAM
     subsegments:
       - [0x1000, hasm, entrypoint]
-      - [0x1AE0, asm]
+      - [0x1AE0, c, game_1AE0]
       - [0x2A60, asm]
       - [0x2B20, asm]
       - [0x73F0, asm]
