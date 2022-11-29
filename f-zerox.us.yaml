@@ -52,6 +52,7 @@ segments:
       - [0x18410, asm]
       - [0x194E0, c, game_194E0]
       - [0x197D0, c, game_197D0]
+      - [0x19F30, bin, noppad_19F30]
       - [0x19F40, asm]
       - [0x1F510, asm]
       - [0x36ED0, asm]

@@ -73,12 +73,9 @@ void func_8007FE98(void) {
     func_8007FB80(0x3B, 0x6E, &D_800D4854);
 }
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_197D0/func_8007FED4.s")
-
-// void func_8007FED4(void) {
-//     func_8007F94C();
-//     func_8007F970();
-//     func_8007FB80(0x37, 0x64, &D_800D4870);
-//     func_8007FB80(0x37, 0x78, &D_800D488C);
-// }
-//theres an additional 7 nops after this function?
+void func_8007FED4(void) {
+    func_8007F94C();
+    func_8007F970();
+    func_8007FB80(0x37, 0x64, &D_800D4870);
+    func_8007FB80(0x37, 0x78, &D_800D488C);
+}
