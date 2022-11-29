@@ -7,3 +7,6 @@
 [submodule "tools/ido5.3_cc"]
 	path = tools/ido5.3_cc
 	url = https://github.com/n64decomp/ido5.3_cc
+[submodule "tools/asm-differ"]
+	path = tools/asm-differ
+	url = https://github.com/simonlindholm/asm-differ
