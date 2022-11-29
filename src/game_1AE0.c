@@ -1,7 +1,5 @@
 #include "common.h"
 
-//#pragma GLOBAL_ASM("asm/nonmatchings/game_1AE0/func_80067AE0.s")
-
 void func_80067AE0(void) {
    s32 temp_t7;
 
@@ -11,10 +9,12 @@ void func_80067AE0(void) {
     D_800DCD0C = temp_t7;
 }
 
-
 #pragma GLOBAL_ASM("asm/nonmatchings/game_1AE0/func_80067B14.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_1AE0/func_80067BA8.s")
+void func_80067BA8(void) {
+    D_800DCCF8 = func_80076C08(D_800DCCF8);
+}
+
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_1AE0/func_80067BD0.s")
 
