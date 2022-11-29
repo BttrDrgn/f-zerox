@@ -1,0 +1,1 @@
+vbindiff baserom.us.z64 build/f-zerox.us.z64

@@ -1,5 +1,7 @@
 #ifndef VARIABLES_H
 #define VARIABLES_H
+extern s16 D_800E42CC;
+extern s32 D_800CD510;
 extern s32 D_800CD520;
 extern s32 D_800D46C0;
 extern s32 D_800D46C8;
@@ -24,6 +26,8 @@ extern s32 D_800DCCF8;
 extern s32 D_800DCD04;
 extern s32 D_800DCD08;
 extern s32 D_800DCD0C;
+extern s32 D_800E4260;
+extern s32 D_800E4264;
 extern s32 D_800E4348;
 extern s32 D_800E4350;
 extern s32 D_800E44D0;

@@ -40,8 +40,8 @@ segments:
     subsegments:
       - [0x1000, hasm, entrypoint]
       - [0x1AE0, c, game_1AE0]
-      - [0x2A60, asm]
-      - [0x2B20, asm]
+      - [0x2A60, c, game_2A60]
+      - [0x2B20, c, game_2B20]
       - [0x73F0, asm]
       - [0xEA90, asm]
       - [0xF0B0, asm]
