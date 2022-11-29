@@ -33,4 +33,9 @@ extern s32 D_800E4350;
 extern s32 D_800E44D0;
 extern s32 D_800E4650;
 extern s32 D_80400008;
+extern void* D_800F8510;
+extern u8 D_800D16D0;
+extern s32 D_A4500000;
+extern s32 D_A4500004;
+extern s32 D_A450000C;
 #endif
