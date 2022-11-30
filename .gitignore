@@ -6,6 +6,6 @@ build/
 
 undefined_syms_auto.txt
 undefined_funcs_auto.txt
-f-zerox.ld
+*.ld
 
 __pycache__

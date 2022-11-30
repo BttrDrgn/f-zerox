@@ -111,7 +111,7 @@ GCC_FLAGS += -mdivide-breaks -fno-stack-protector -fno-common -fno-zero-initiali
 GCC_FLAGS += -Wall -Wextra -Wno-missing-braces
 
 TARGET     = $(BUILD_DIR)/$(BASENAME).$(VERSION)
-LD_SCRIPT  = $(BASENAME).ld
+LD_SCRIPT  = $(BASENAME).$(VERSION).ld
 
 LD_FLAGS   = -T $(LD_SCRIPT) -T undefined_funcs_auto.txt  -T undefined_syms_auto.txt
 LD_FLAGS  += -Map $(TARGET).map --no-check-sections
@@ -172,7 +172,7 @@ distclean: clean
 	@echo "$$(cat $(BASENAME).$(VERSION).sha1)  $<" | sha1sum --check
 	@touch $@
 
-$(TARGET).elf: dirs $(BASENAME).ld $(BUILD_DIR)/$(LIBULTRA) $(O_FILES) $(LANG_RNC_O_FILES) $(IMAGE_O_FILES)
+$(TARGET).elf: dirs $(BASENAME).$(VERSION).ld $(BUILD_DIR)/$(LIBULTRA) $(O_FILES) $(LANG_RNC_O_FILES) $(IMAGE_O_FILES)
 	@$(LD) $(LD_FLAGS) $(LD_FLAGS_EXTRA) -o $@
 	@printf "[$(PINK) Linker $(NO_COL)]  $<\n"
 
