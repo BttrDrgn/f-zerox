@@ -24,7 +24,7 @@ This repo compiles the following:
 ## Continued
 
 - Clone the repo : `git clone --recursive https://github.com/BttrDrgn/f-zerox.git`
-- Place your F-Zero X Z64 format ROM at the root of the repository as `baserom.u.z64`
+- Place your F-Zero X Z64 format ROM at the root of the repository as `baserom.us.z64`
 - Run `make extract` to split the rom
 - Run `make` to build the rom
     - Run `make extract && make` to do this all in one
