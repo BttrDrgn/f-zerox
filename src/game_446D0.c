@@ -18,17 +18,13 @@
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_446D0/func_800AAD84.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_446D0/func_800AAF5C.s")
-//Argument is passed at index 1 in the assembly
-// void func_800AAF5C(void) {
-//     func_800AAD84(6);
-// }
+void func_800AAF5C(s32 arg0) {
+    func_800AAD84(arg0, 6);
+}
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_446D0/func_800AAF7C.s")
-//Argument is passed at index 1 in the assembly
-// void func_800AAF7C(void) {
-//     func_800AAD84(7);
-// }
+void func_800AAF7C(s32 arg0) {
+    func_800AAD84(arg0, 7);
+}
 
 void func_800AAF9C(struct UnkStruct_1* arg0) {
     arg0->unk0 = arg0;
