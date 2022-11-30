@@ -153,13 +153,29 @@ segments:
       # bss starts at 0x72030/0x800D8030
       # end of data/rodata for main overlay
       - [0x72030, bin] # list of MIO0 Offsets
-      
-  - name: segment_72030
-    type: bin
-    start: 0x72030
+
+  # osInvalICache(&func_80115DF0, &D_80168A70 - &func_80115DF0);
+  # osInvalDCache(&D_80168A70, &D_80168CD0 - &D_80168A70);
+  # copy_data(&D_F2AC0, &func_80115DF0, &D_1459A0 - &D_F2AC0, &D_80168CD0, &D_80168CE0 - &D_80168CD0);
+  - type: code
+    name: segment_F2AC0
+    start: 0xF2AC0
+    vram:  0x80115DF0
+    exclusive_ram_id: "0x80115DF0"
     subsegments:
-      - [0x72030, bin]
-    
+    - [0xF2AC0, asm]
+    - [0x145740, asm] # pointers to display lists / display list functions
+
+  - [0x1459A0, bin]
+  - [0x145B70, bin]
+
+  # interesting offsets referenced by func_80068008
+  # 18750
+  # 22500
+  # 1459A0 -> 145B70
+  # 16C8A0 -> 17B1E0
+  # 17B960 -> 1B8550
+
   - [0x16C8A0, bin]  # MIO0 segment
   - [0x17B1E0, bin]  # tbd
   - [0x17B960, bin]  # tbd
@@ -180,7 +196,7 @@ segments:
   - [0x26D780, bin]  # MIO0 segment
   - [0x2738A0, bin]  # MIO0 segment
   - [0x27A000, bin]  # n64 logo rgba16
-# /* 11D18 80077D18 3C18002C */  lui        $t8, %hi(D_2B9EA0)
+  # /* 11D18 80077D18 3C18002C */  lui        $t8, %hi(D_2B9EA0)
   - [0x2B9EA4, bin]  # MIO0 segment
   - [0x2CE908, bin]  # MIO0 segment
   - [0x2E01E8, bin]  # MIO0 segment
