@@ -32,18 +32,21 @@
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/osSetTime.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006A904.s")
-// void func_8006A904(s32 arg0, s32 arg1) {
-//     D_800CD178 = arg0;
-//     D_800CD17C = arg1;
-// }
-
+void func_8006A904(s32 arg0, s32 arg1) {
+    D_800CD178 = arg0;
+    D_800CD17C = arg1;
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006A918.s")
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006A978.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006A9E0.s")
+s32 func_8006A9E0(f32 arg0) {
+    if (arg0 < 0.0f) {
+        return (s32) (arg0 - 0.5f);
+    }
+    return (s32) (arg0 + 0.5f);
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006AA38.s")
 

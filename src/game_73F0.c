@@ -81,7 +81,12 @@ s32 func_8006D3F0(s32 arg0) {
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_73F0/func_8007327C.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_73F0/func_80073510.s")
+void func_80073510(s32 arg0) {
+    func_80072D00();
+    func_80072ECC(arg0);
+    func_800730A4(arg0);
+    func_8007327C(arg0);
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_73F0/func_80073548.s")
 
@@ -99,7 +104,10 @@ s32 func_8006D3F0(s32 arg0) {
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_73F0/func_8007402C.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_73F0/func_800741DC.s")
+void func_800741DC(s32 arg0) {
+    func_80073894();
+    func_8007392C(arg0);
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_73F0/func_80074204.s")
 
