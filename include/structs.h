@@ -19,4 +19,17 @@ struct UnkStruct_2 {
     void* unk4;
 };
 
+struct UnkStruct_3 {
+    s8 unk1;
+    s8 unk2;
+};
+
+struct UnkStruct_4 {
+    s8 unk0;
+    s8 unk1;
+    s8 unk2;
+    s8 unk3;
+};
+
+
 #endif

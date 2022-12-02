@@ -65,7 +65,17 @@ s32 func_800AB57C(s32 arg0, s32 arg1) {
     return sp1C;
 }
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_446D0/func_800AB5C8.s")
+s32 func_800AB5C8(s32 arg0, s32 arg1) {
+    s32 sp1C;
+
+    sp1C = func_800AC830(arg0 + 0x10);
+    if (sp1C != 0) {
+        func_800AB550(sp1C, arg1);
+        func_800AC7F0(arg0 + 0x20, sp1C);
+    }
+    return sp1C;
+}
+
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_446D0/func_800AB618.s")
 

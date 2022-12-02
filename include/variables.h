@@ -1,5 +1,6 @@
 #ifndef VARIABLES_H
 #define VARIABLES_H
+
 extern s16 D_800E42CC;
 extern s32 D_800CD510;
 extern s32 D_800CD520;
@@ -38,4 +39,7 @@ extern u8 D_800D16D0;
 extern s32 D_A4500000;
 extern s32 D_A4500004;
 extern s32 D_A450000C;
+extern s32 D_8002AA18;
+extern struct UnkStruct_4 D_8010B7B0;
+
 #endif

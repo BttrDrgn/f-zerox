@@ -42,7 +42,7 @@ segments:
       - [0x1AE0, c, game_1AE0]
       - [0x2A60, c, game_2A60]
       - [0x2B20, c, game_2B20]
-      - [0x73F0, asm]
+      - [0x73F0, c, game_73F0]
       - [0xEA90, c, game_EA90]
       - [0xF0B0, asm]
       - [0xF1C0, asm]
