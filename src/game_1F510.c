@@ -96,7 +96,15 @@ void func_80088CAC(s32 arg0) {
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_1F510/func_8008D5F4.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_1F510/func_8008D7E8.s")
+void func_8008D7E8(void) {
+    s32 var_s0;
+
+    var_s0 = 0x1D;
+    do {
+        func_8008D3C4(var_s0, var_s0);
+        var_s0 -= 1;
+    } while (var_s0 >= 0);
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_1F510/func_8008D824.s")
 

@@ -10,6 +10,7 @@ extern s32 D_800CD510;
 extern s32 D_800CD520;
 extern s32 D_800D0AC0;
 extern s32 D_800D0AC4;
+extern s32 D_800D1C18;
 extern s32 D_800D46C0;
 extern s32 D_800D46C8;
 extern s32 D_800D46D8;

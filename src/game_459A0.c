@@ -155,7 +155,11 @@ void func_800B049C(void) {
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_459A0/func_800B04C4.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_459A0/func_800B0754.s")
+void func_800B0754(s32 arg0) {
+    func_800B0FB4();
+    func_800B1B40(arg0);
+    func_800B12EC(arg0);
+}
 
 void func_800B0784(s32 arg0) {
     D_800D0AC0 = arg0;
