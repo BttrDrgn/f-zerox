@@ -64,12 +64,12 @@ segments:
       - [0x4FFB0, c, game_4FFB0]
       - [0x511D0, c, game_511D0]
        # libultra
-      - [0x559A0, hasm] # setcause
-      - [0x559B0, asm] # sendmesg
-      - [0x55B00, asm] # stopthread
-      - [0x55BC0, asm] # recvmesg
-      - [0x55D00, hasm] # getintmask
-      - [0x55D60, hasm] # setintmask
+      - [0x559A0, asm] # setcause
+      - [0x559B0, asm] # os/sendmesg
+      - [0x55B00, asm] # os/stopthread
+      - [0x55BC0, asm] # os/recvmesg
+      - [0x55D00, asm] # os/getintmask
+      - [0x55D60, asm] # os/setintmask
       - [0x55E00, asm] # scale
       - [0x55EA0, asm] # sptask
       - [0x56190, asm] # ll
@@ -88,7 +88,7 @@ segments:
       - [0x58310, asm] # physicaltovirtual
       - [0x58320, asm] # setsr
       - [0x58330, hasm] # writebackdcache
-      - [0x583B0, asm] # os/initialize
+      - [0x583B0, asm] # initialize
       - [0x58640, asm] # pirawread
       - [0x586A0, asm] # getsr
       - [0x586B0, asm]
@@ -123,6 +123,7 @@ segments:
       - [0x5CAE0, asm]
       - [0x5CD60, asm]
       - [0x5CF00, asm]
+      - [0x5CF90, bin, noppad_5CF90]
       - [0x5CFA0, asm]
       - [0x5D590, asm]
       - [0x5D5E0, asm]
@@ -168,6 +169,7 @@ segments:
       - [0x61860, asm]
       - [0x618A0, asm] # spsetpc
       - [0x618E0, asm] # sethwinterrupt
+      - [0x61930, asm]
       - [0x61A00, asm]
       - [0x625e0, asm]
       - [0x66FB0, bin]
