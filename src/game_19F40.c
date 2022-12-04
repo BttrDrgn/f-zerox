@@ -112,13 +112,21 @@ void func_80083548(s32* arg0, s32 arg1) {
     *arg0 = arg1;
 }
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_19F40/func_80083550.s")
+void func_80083550(struct UnkStruct_5* arg0, s32 arg1) {
+    arg0->unkC = arg1;
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_19F40/func_80083558.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_19F40/func_80083568.s")
+void func_80083568(struct UnkStruct_6* arg0, s32 arg1, s32 arg2) {
+    arg0->unk1C = arg1;
+    arg0->unk20 = arg2;
+}
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_19F40/func_80083574.s")
+void func_80083574(struct UnkStruct_7* arg0, s32 arg1) {
+    arg0->unk4 = arg1;
+    arg0->unk8 = 0;
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_19F40/func_80083580.s")
 
