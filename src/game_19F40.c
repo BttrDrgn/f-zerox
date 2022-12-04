@@ -128,7 +128,10 @@ void func_80083574(struct UnkStruct_7* arg0, s32 arg1) {
     arg0->unk8 = 0;
 }
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_19F40/func_80083580.s")
+//#pragma GLOBAL_ASM("asm/nonmatchings/game_19F40/func_80083580.s")
+void func_80083580(struct UnkStruct_5* arg0) {
+    func_80084CDC(arg0->unkC);
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_19F40/func_800835A0.s")
 

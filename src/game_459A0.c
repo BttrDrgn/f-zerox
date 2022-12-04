@@ -232,7 +232,7 @@ void func_800B1658(s32 arg0, s32 arg1, s32 arg2, s32 arg3) {
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_459A0/func_800B2B20.s")
 
-void func_800B2B50(struct UnkStruct_9* arg0) {
+void func_800B2B50(struct UnkStruct_5* arg0) {
     arg0->unkC = 0;
     arg0->unk4 = arg0->unk0;
 }

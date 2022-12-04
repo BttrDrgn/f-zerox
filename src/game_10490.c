@@ -19,7 +19,10 @@ void func_80076490(void) {
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_10490/func_80076884.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_10490/func_800768B0.s")
+s32 func_800768B0(s32 arg0, s32 arg1) {
+    s32 ret = D_800E33C0[arg0];
+    return ret;
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_10490/func_800768C8.s")
 

@@ -54,9 +54,18 @@ s32 func_8006A9E0(f32 arg0) {
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006ADE4.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006AFC8.s")
+void func_8006AFC8(struct UnkStruct_10* arg0, s32 arg1, s32 arg2, s32 arg3) {
+    arg0->unk0 = arg0->unk4 = arg1;
+    arg0->unk1 = arg0->unk5 = arg2;
+    arg0->unk2 = arg0->unk6 = arg3;
+}
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006AFE4.s")
+void func_8006AFE4(struct UnkStruct_10* arg0, s32 arg1, s32 arg2, s32 arg3) {
+    arg0->unk0 = arg0->unk4 = arg1;
+    arg0->unk1 = arg0->unk5 = arg2;
+    arg0->unk2 = arg0->unk6 = arg3;
+}
+
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006B000.s")
 

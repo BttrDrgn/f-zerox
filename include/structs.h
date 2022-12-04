@@ -71,12 +71,22 @@ struct UnkStruct_8 {
     s8 unkA;
 };
 
-//Possibly UnkStruct_5?
-struct UnkStruct_9 {
-    s32 unk0;
-    s32 unk4;
-    s32 unk8;
-    s32 unkC;
+struct UnkStruct_10 {
+    s8 unk0;
+    s8 unk1;
+    s8 unk2;
+    s8 unk3;
+    s8 unk4;
+    s8 unk5;
+    s8 unk6;
+};
+
+//Possibly UnkStruct_4
+struct UnkStruct_11 {
+    s8 unk0;
+    s8 unk1;
+    s8 unk2;
+    s8 unk3;
 };
 
 #endif
