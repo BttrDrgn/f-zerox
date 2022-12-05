@@ -28,7 +28,15 @@
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_11CF0/func_80078F80.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_11CF0/func_80079080.s")
+void func_80079080(void) {
+    s32 var_v0;
+
+    D_800E4068 = 0;
+    var_v0 = 1;
+     while (var_v0 != 0x11){
+        var_v0 += 1;
+    };
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_11CF0/func_800790A4.s")
 

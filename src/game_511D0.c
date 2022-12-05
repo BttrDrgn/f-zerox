@@ -52,7 +52,9 @@ void func_800BA268(void) {
     func_800B079C(0, 0);
 }
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_511D0/func_800BA28C.s")
+void func_800BA28C(u8 arg0) {
+    func_800B6910(0xF0000000, arg0);
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_511D0/func_800BA2B4.s")
 
@@ -146,7 +148,10 @@ void func_800BB324(s8 arg0) {
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_511D0/func_800BB370.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_511D0/func_800BB39C.s")
+void func_800BB39C(s32 arg0) {
+    func_800B9ED4();
+    func_800B6994();
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_511D0/func_800BB3C4.s")
 

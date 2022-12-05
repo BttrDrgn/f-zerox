@@ -66,8 +66,11 @@ void func_8006AFE4(struct UnkStruct_10* arg0, s32 arg1, s32 arg2, s32 arg3) {
     arg0->unk2 = arg0->unk6 = arg3;
 }
 
-
-#pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006B000.s")
+void func_8006B000(struct UnkStruct_8* arg0, s32 arg1, s32 arg2, s32 arg3) {
+    arg0->unk8 = arg1;
+    arg0->unk9 = arg2;
+    arg0->unkA = arg3;
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_2B20/func_8006B010.s")
 

@@ -35,13 +35,6 @@
 #pragma GLOBAL_ASM("asm/nonmatchings/game_14440/func_8007DB28.s")
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_14440/func_8007DED8.s")
-// void func_8007DED8(void) {
-//     static struct UnkStruct_11 D_800E4175;
-//     D_800E4175.unk0 = 0;
-//     D_800E4175.unk1 = 0;
-//     D_800E4175.unk2 = 0;
-//     D_800E4175.unk3 = 0;
-// }
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_14440/func_8007DEF0.s")
 

@@ -50,11 +50,14 @@ struct UnkStruct_6 {
     s32 unk20;
 };
 
-//Possibly UnkStruct_1?
 struct UnkStruct_7 {
     s32 unk0;
     s32 unk4;
     s32 unk8;
+    s32 unkC;
+    s32 unk10;
+    s32 unk14;
+    s32 unk18;
 };
 
 struct UnkStruct_8 {
@@ -79,14 +82,6 @@ struct UnkStruct_10 {
     s8 unk4;
     s8 unk5;
     s8 unk6;
-};
-
-//Possibly UnkStruct_4
-struct UnkStruct_11 {
-    s8 unk0;
-    s8 unk1;
-    s8 unk2;
-    s8 unk3;
 };
 
 #endif
